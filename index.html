@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    
+    <div class="sidebar">
+
+        <div class="logo">
+            <img src="image/logoLarge.png" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Task</a></li>
+                <li><a href="#">Files</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </nav>
+        
+        <div class="storage">
+
+            <div class="content">
+                <div class="left-content">
+                    <img src="logo/cloud.png" alt="">
+                    <p>Storage</p>
+                </div>
+                <div class="right-content">
+                    <span>60%</span>
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="main-bar">
+                    <div class="bar-state"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+        
+    <div class="main-content">
+
+        <div class="left-section">
+
+            <div class="left-inner">
+
+                <div class="search">
+                    <input placeholder="Search..." type="text">
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <div class="project">
+
+                    <div class="title">
+                        <div class="top-content">
+                            <h1>Project</h1>
+                            <span>View all<i class="fas fa-chevron-right"></i></span>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="divider"> <!-- divider => bölen demek :) -->
+                                <div class="accent-color">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-container">
+
+                        <div class="project-content">
+
+                            <div class="top-content">
+                                <img src="image/folder-icon.png" alt="">
+
+                                <div class="team-content">
+                                    <img src="image/teamPhoto-1.png" alt="">
+                                    <img src="image/teamPhoto-2.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="middle-content">
+                                <h1>Backend</h1>
+                                <p>3 Task</p>
+                            </div>
+
+                            <div class="bottom-content">
+                                <div class="percent">
+                                    <div class="divider">
+                                        <div class="divider-inner">
+                                            <p>70%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="top-content">
+                                <img src="image/folder-icon.png" alt="">
+
+                                <div class="team-content">
+                                    <img src="image/teamPhoto-1.png" alt="">
+                                    <img src="image/teamPhoto-2.png" alt="">
+                                    <img src="image/teamPhoto-3.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="middle-content">
+                                <h1>Nucleus Tech</h1>
+                                <p>16 Task</p>
+                            </div>
+
+                            <div class="bottom-content">
+                                <div class="percent">
+                                    <div class="divider">
+                                        <div class="divider-inner">
+                                            <p>70%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="project-content">
+
+                            <div class="top-content">
+                                <img src="image/folder-icon.png" alt="">
+
+                                <div class="team-content">
+                                    <img src="image/teamPhoto-1.png" alt="">
+                                    <img src="image/teamPhoto-2.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="middle-content">
+                                <h1>Summit AI</h1>
+                                <p>7 Task</p>
+                            </div>
+
+                            <div class="bottom-content">
+                                <div class="percent">
+                                    <div class="divider">
+                                        <div class="divider-inner">
+                                            <p>70%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="project-add">
+                            <button><i class="fa fa-plus"></i></button>
+                            <p>Add new project</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="recent">
+
+                    <div class="title">
+                        <div class="top-content">
+                            <h1>Recent</h1>
+                            <span>View all<i class="fas fa-chevron-right"></i></span>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="divider"> <!-- divider => bölen demek :) -->
+                                <div class="accent-color">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content">
+
+                        <div class="folder-section">
+                            <img src="image/folder-icon.png" alt="">
+                            <p>Desing Assets</p>
+                        </div>
+
+                        <div class="right-section">
+                            <div class="some-content">
+                                <span>Only You</span>
+                                <span>2.4GB</span>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div id="selected" class="content">
+
+                        <div class="folder-section">
+                            <img src="image/folder-icon.png" alt="">
+                            <p>Frontend </p>
+                        </div>
+
+                        <div class="right-section">
+                            <div class="some-content">
+                                <span>Only You</span>
+                                <span>130MB</span>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="content">
+
+                        <div class="folder-section">
+                            <img src="image/folder-icon.png" alt="">
+                            <p>Cyber </p>
+                        </div>
+
+                        <div class="right-section">
+                            <div class="some-content">
+                                <span>2 Members</span>
+                                <span>13GB</span>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="content">
+
+                        <div class="folder-section">
+                            <img src="image/folder-icon.png" alt="">
+                            <p>Frontend </p>
+                        </div>
+
+                        <div class="right-section">
+                            <div class="some-content">
+                                <span>Only You</span>
+                                <span>130MB</span>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="content">
+
+                        <div class="folder-section">
+                            <img src="image/folder-icon.png" alt="">
+                            <p>Backend </p>
+                        </div>
+
+                        <div class="right-section">
+                            <div class="some-content">
+                                <span>8 Members</span>
+                                <span>430MB</span>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="content">
+
+                        <div class="folder-section">
+                            <img src="image/folder-icon.png" alt="">
+                            <p>İmage </p>
+                        </div>
+
+                        <div class="right-section">
+                            <div class="some-content">
+                                <span>5 Members</span>
+                                <span>1GB</span>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right-section">
+
+            <div class="profil-bar">
+                <img src="image/notifications.png" alt="">
+                <div class="profil">
+                    <img src="image/avatar.png" alt="">
+                    <p>James</p>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+
+            <div class="right-sidebar">
+
+                <div class="activite-section">
+
+                    <div class="title">
+                        <div class="top-content">
+                            <h1>Activities</h1>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="divider"> <!-- divider => bölen demek :) -->
+                                <div class="accent-color">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-container">
+
+                        <div class="activity">
+
+                            <div class="circle">
+                                <div class="inner-circle">
+
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                
+                                <div class="text">
+                                    <p><span>David Lee</span> shared 2 illustrations in the <span>Nucles Tech</span> project. </p>
+                                </div>
+
+                                <div class="time">
+                                    <span>1h</span>
+                                </div>
+
+                            </div>
+
+                            <div class="images">
+                                <img src="image/Bitmap.png" alt="">
+                                <img src="image/Bitmap2.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="activity">
+
+                            <div class="circle">
+                                <div class="inner-circle">
+
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                
+                                <div class="text">
+                                    <p><span>David Lee</span> shared 2 illustrations in the <span>Nucles Tech</span> project. </p>
+                                </div>
+
+                                <div class="time">
+                                    <span>2h</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="activity">
+
+                            <div class="circle">
+                                <div class="inner-circle">
+
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                
+                                <div class="text">
+                                    <p><span>David Lee</span> shared 2 illustrations in the <span>Nucles Tech</span> project. </p>
+                                </div>
+
+                                <div class="time">
+                                    <span>8h</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="activity">
+
+                            <div class="circle">
+                                <div class="inner-circle">
+
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                
+                                <div class="text">
+                                    <p><span>David Lee</span> shared 2 illustrations in the <span>Nucles Tech</span> project. </p>
+                                </div>
+
+                                <div class="time">
+                                    <span>12h</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="refer-friend-card">
+
+                    <div class="close-btn">
+                        <i class="fas fa-times" ></i>
+                    </div>
+
+                    <div class="text-content">
+                        <h1>Refer a friend!</h1>
+                        <p>And get awesome rewards</p>
+                    </div>
+
+                    <img src="image/referFriend.png" alt="">
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+<script src="script.js"></script>
